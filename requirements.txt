@@ -1,0 +1,12 @@
+streamlit
+feedparser
+pandas
+numpy
+scikit-learn
+keybert
+sentence-transformers
+python-dotenv
+openai
+neo4j
+pyvis
+PyPDF2
