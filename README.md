@@ -17,29 +17,29 @@ This repository provides a full NLP pipeline to automate bibliometric research o
 ## Project Structure
 
 ML_RESEARCH/
-│
-├── app1.py # Main entry point using environment variables
-├── app2.py # Main entry point using direct API access
-├── your_pipeline2.py # Full pipeline script (with .env)
-├── your_pipeline3.py # Full pipeline script (no .env)
-│
-├── fetch_arxiv.py # Fetch papers from arXiv
-├── fetch_core.py # Fetch papers from CORE
-│
-├── graph_builder.py # Builds Neo4j graph from data
-├── graph_info.py # Helper for graph metadata
-├── graph.html # HTML visualization of the knowledge graph
-│
-├── clustered_papers.csv # Clustering results
-├── core_papers_fulltext.csv # Fulltext from CORE
-├── papers_enriched.csv # Final enriched metadata for graphing
-├── papers3.csv # Raw paper metadata
-│
-├── requirements.txt # Required Python packages
-├── .env # (Optional) API keys and config
-├── .gitignore # Standard ignore rules
-├── README.md # Project documentation
-├── Unified_Hybrid_NLP_Workflow.pdf # Workflow overview (PDF)
+
+── app1.py # Main entry point using environment variables
+── app2.py # Main entry point using direct API access
+── your_pipeline2.py # Full pipeline script (with .env)
+── your_pipeline3.py # Full pipeline script (no .env)
+
+── fetch_arxiv.py # Fetch papers from arXiv
+── fetch_core.py # Fetch papers from CORE
+
+── graph_builder.py # Builds Neo4j graph from data
+── graph_info.py # Helper for graph metadata
+── graph.html # HTML visualization of the knowledge graph
+
+── clustered_papers.csv # Clustering results
+── core_papers_fulltext.csv # Fulltext from CORE
+── papers_enriched.csv # Final enriched metadata for graphing
+── papers3.csv # Raw paper metadata
+
+── requirements.txt # Required Python packages
+── .env # (Optional) API keys and config
+── .gitignore # Standard ignore rules
+── README.md # Project documentation
+── Unified_Hybrid_NLP_Workflow.pdf # Workflow overview (PDF)
 
 ## Workflow Overview
 
