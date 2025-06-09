@@ -10,10 +10,10 @@ from openai import OpenAI
 from neo4j import GraphDatabase
 
 # === HARDCODED SECRETS ===
-API_KEY = "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"
-NEO4J_URI = "neo4j+s://398c4cbb.databases.neo4j.io"
+API_KEY = "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"
+NEO4J_URI = "neo4j+s://ea5b80d2.databases.neo4j.io"
 NEO4J_USER = "neo4j"
-NEO4J_PASSWORD = "MoRiYhLULubPW3Q722MLGx8Eq4ScSyOScHX1N348kaM"
+NEO4J_PASSWORD = "OMaKwSR0X5bEBrrUSV9jRGDfJCmWuUB0p8mq3NgDtnI"
 
 # === MODEL SETUP ===
 bert_encoder = SentenceTransformer("all-MiniLM-L6-v2")
